@@ -1,6 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-h1{
+body {
   font-family: "Lato";
   font-weight:900;
+  background-color: darkgrey;
+}
+
+:root {
+  --dark: #172735;
+  --white: #ffffff;
+  --dark-mint: #4bcc8c;
+  --blue-purple: #5f35d4;
+  --dark-sky-blue: #26b6eb;
+  --cool-grey: #979da4;
+  --pale-grey: #f3f4f5;
+  --silver: #e7e9ea;
+}
+
+.Page-Title {
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 1.23;
+  letter-spacing: 0.6px;
+  color: var(--white);
+}
+
+.Tagline {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: var(--white);
+}
+
+.Text {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+
+.Learnmore {
+  color: #4bcc8c;
+  padding: 10px;
+  border-width: 2px;
+  width: 168px;
+  height: 43px;
+  border: solid 1px var(--dark-mint);
 }
