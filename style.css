@@ -26,20 +26,7 @@ h1 {
   text-align: left;
 }
 
-.hero {
-  width: 1440px;
-  height: 825px;
-  margin-left: 240px;  /* responsivenál nem így kéne megadni */
-}
-
-.menu-items {
-  display:flex;
-}
-
-.menu-items div{
-  width: 80px;
-  height: 32px;
-}
+/* TEXT STYLES */
 
 .Page-Title {
   font-size: 52px;
@@ -49,8 +36,6 @@ h1 {
   color: var(--white);
   height: 128px;
   max-width: 624px;
-  margin-top: 257px;  /* responsivenál nem így kéne megadni */
-  margin-bottom: 35px; /* responsivenál nem így kéne megadni */
 }
 
 .Page-Title span {
@@ -175,4 +160,30 @@ h1 {
 .wrap {
   max-width: 960px; /* responsive */
   margin: 0 auto;
+}
+
+
+/* Nav items */
+
+.hero {
+  padding: 56px 0 80px;
+}
+
+.menu {
+  display: flex;
+  margin: 0 -10px;
+}
+
+.menu-item {
+  margin: 0 20px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+.logo {
+  margin-right: auto;
+}
+.contact-button {
+  background-color: var(--dark-mint);
 }
