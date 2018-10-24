@@ -15,7 +15,6 @@
 body {
   font-family: "Lato", sans-serif;
   font-weight:900;
-  background-color: lightgrey;
 }
 
 h1 {
@@ -87,6 +86,7 @@ h1 {
   letter-spacing: 0.4px;
   text-align: center;
   color: var(--dark);
+  margin: 60px;
 }
 .Section-Title-White {
   font-family: Lato;
@@ -231,3 +231,28 @@ h1 {
   color: white;
   padding-bottom: 6px;
 }
+
+/* QUOTES */
+
+.quotes {
+  height: 348px;
+  background-color: var(--silver)
+}
+
+/* MEET TEAM CARDS */
+ .grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 288px 288px;
+   grid-column-gap: 48px;
+   grid-row-gap: 24px;
+ }
+
+.grid-card {
+   background-color: var(--dark-mint);
+   padding: 25px;
+   color: white;
+ }
+ .grid-card:nth-child(2n) {
+   background-color: var(--blue-purple);
+ }
