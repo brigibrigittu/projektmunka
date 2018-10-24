@@ -171,11 +171,11 @@ h1 {
 
 .menu {
   display: flex;
-  margin: 0 -10px;
+  margin: 0 -10px; /* a -10 azért, hogy teljesen a szélén legyenek */
 }
 
 .menu-item {
-  margin: 0 20px;
+  margin: 0 10px;
   font-size: 14px;
   color: white;
   text-decoration: none;
@@ -183,7 +183,51 @@ h1 {
 }
 .logo {
   margin-right: auto;
+  margin-left: 0;
 }
 .contact-button {
   background-color: var(--dark-mint);
+  margin-left: 60px;
+}
+
+
+/* CASE STUDY CARDS */
+
+.card{
+  background-color: green;
+  padding: 50px;
+  min-height: 310px; /* hogy összenyomva se romoljon el a szöveg */
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.card h2 {
+  max-width: 426px;
+}
+
+.orange {
+  background-color: #f07138;
+}
+
+.green {
+  background-color: #6eb153;
+}
+
+.pink {
+  background-color: #e3395b;
+}
+
+.black {
+  background-color: #292b29;
+}
+
+.case-study {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  color: white;
+  padding-bottom: 6px;
 }
