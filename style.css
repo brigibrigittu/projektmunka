@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+:root {
+  --dark: #172735;
+  --white: #ffffff;
+  --dark-mint: #4bcc8c;
+  --blue-purple: #5f35d4;
+  --dark-sky-blue: #26b6eb;
+  --cool-grey: #979da4;
+  --pale-grey: #f3f4f5;
+  --silver: #e7e9ea;
+}
+
 body {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight:900;
   background-color: lightgrey;
 }
@@ -19,17 +30,6 @@ body {
 .menu-items div{
   width: 80px;
   height: 32px;
-}
-
-:root {
-  --dark: #172735;
-  --white: #ffffff;
-  --dark-mint: #4bcc8c;
-  --blue-purple: #5f35d4;
-  --dark-sky-blue: #26b6eb;
-  --cool-grey: #979da4;
-  --pale-grey: #f3f4f5;
-  --silver: #e7e9ea;
 }
 
 .Page-Title {
@@ -52,17 +52,13 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.4;
-  letter-spacing: normal;
   color: var(--white);
   margin-bottom: 83px; /* responsivenál nem így kéne megadni */
 }
 
 .Text {
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
   line-height: 2.29;
-  letter-spacing: normal;
   color: var(--dark);
 }
 
@@ -71,12 +67,90 @@ body {
   border-width: 2px;
   width: 148px;
   height: 19px;
-  font-family: Lato;
   font-size: 16px;
   font-weight: bold;
-  line-height: normal;
   text-align: center;
   color: var(--dark-mint);
   border: solid 1px var(--dark-mint);
   margin-bottom: 137px;
+}
+
+
+.Section-Title-Black {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--dark);
+}
+.Section-Title {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--dark);
+}
+.Section-Title-White {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--white);
+}
+.Card-Title {
+  font-family: Lato;
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 1.16;
+  letter-spacing: 0.4px;
+  color: var(--white);
+}
+.Section-Subtitle {
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.13;
+  color: var(--dark);
+}
+.Quote {
+  font-family: CrimsonText;
+  font-size: 28px;
+  line-height: 1.61;
+  text-align: center;
+  color: var(--dark);
+}
+.Card-Title-Small {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.33;
+  color: var(--white);
+}
+.Carousel-Title {
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.27;
+  text-align: center;
+  color: var(--dark);
+}
+
+.Text-White {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2.29;
+  color: var(--white);
+}
+.Footer-Subtitle {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 2.57;
+  color: var(--cool-grey);
 }
