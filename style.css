@@ -9,6 +9,7 @@
   --cool-grey: #979da4;
   --pale-grey: #f3f4f5;
   --silver: #e7e9ea;
+  --dark: #172735;
 }
 
 body {
@@ -17,10 +18,18 @@ body {
   background-color: lightgrey;
 }
 
+h1 {
+  text-align:center;
+}
+
+.hero h1 {
+  text-align: left;
+}
+
 .hero {
   width: 1440px;
   height: 825px;
-  margin-left: 240px; /* responsivenál nem így kéne megadni */
+  margin-left: 240px;  /* responsivenál nem így kéne megadni */
 }
 
 .menu-items {
@@ -39,7 +48,7 @@ body {
   letter-spacing: 0.6px;
   color: var(--white);
   height: 128px;
-  width: 624px;
+  max-width: 624px;
   margin-top: 257px;  /* responsivenál nem így kéne megadni */
   margin-bottom: 35px; /* responsivenál nem így kéne megadni */
 }
@@ -153,4 +162,17 @@ body {
   font-size: 14px;
   line-height: 2.57;
   color: var(--cool-grey);
+}
+.Text {
+  font-size: 14px;
+  line-height: 2.29;
+  color: var(--dark);
+}
+.dark {
+  background-color: var(--dark);
+}
+
+.wrap {
+  max-width: 960px; /* responsive */
+  margin: 0 auto;
 }
